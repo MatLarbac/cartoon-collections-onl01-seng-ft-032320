@@ -3,8 +3,7 @@ def roll_call_dwarves(dwarves)
     index += 1 
     puts "#{index}. #{name}"
   end
-  # code an argument here
-  # Your code here
+  
 end
 
 def summon_captain_planet(planeteer_calls)
@@ -23,7 +22,8 @@ end
 def find_the_cheese(array)
   i = 0 
   cheese_types = ["cheddar", "gouda", "camembert"]
-while i < cheese_types[i] if array.include?(cheese_types[i])
+while i < cheese_types.legth 
+return cheese_types[i] if array.include?(cheese_types[i])
 i += 1 
 end
 end
